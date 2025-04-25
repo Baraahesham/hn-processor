@@ -8,8 +8,8 @@ import (
 
 	"github.com/Baraahesham/hn-processor/internal/config"
 	"github.com/Baraahesham/hn-processor/internal/db"
+	hnprocessor "github.com/Baraahesham/hn-processor/internal/hn_processor"
 	"github.com/Baraahesham/hn-processor/internal/nats"
-	hnprocessor "github.com/Baraahesham/hn-processor/internal/processor"
 	"github.com/rs/zerolog"
 	"github.com/spf13/viper"
 )
